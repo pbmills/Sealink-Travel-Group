@@ -777,21 +777,16 @@ select {
   margin-right: auto;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .flex {
   display: flex;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .h-auto {
@@ -804,10 +799,6 @@ select {
 
 .h-full {
   height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .w-full {
@@ -858,6 +849,11 @@ select {
   border-color: rgba(186, 159, 85, var(--tw-border-opacity));
 }
 
+.bg-cream {
+  --tw-bg-opacity: 1;
+  background-color: rgba(250, 246, 239, var(--tw-bg-opacity));
+}
+
 .bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 82, 106, var(--tw-bg-opacity));
@@ -866,11 +862,6 @@ select {
 .bg-gold {
   --tw-bg-opacity: 1;
   background-color: rgba(186, 159, 85, var(--tw-bg-opacity));
-}
-
-.bg-cream {
-  --tw-bg-opacity: 1;
-  background-color: rgba(250, 246, 239, var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -972,11 +963,6 @@ select {
   font-size: clamp(0.9rem, calc(0.5rem + (8 / 1792 * 100 * 1vw)), 1.1rem);
 }
 
-.hover\:text-gold:hover {
-  --tw-text-opacity: 1;
-  color: rgba(186, 159, 85, var(--tw-text-opacity));
-}
-
 .hover\:text-gold-200:hover {
   --tw-text-opacity: 1;
   color: rgba(206, 187, 138, var(--tw-text-opacity));
@@ -990,11 +976,6 @@ select {
 .hocus\:text-blue:hover,.hocus\:text-blue:focus {
   --tw-text-opacity: 1;
   color: rgba(0, 82, 106, var(--tw-text-opacity));
-}
-
-.hocus\:text-gold:hover,.hocus\:text-gold:focus {
-  --tw-text-opacity: 1;
-  color: rgba(186, 159, 85, var(--tw-text-opacity));
 }
 
 @media (min-width: 480px) {
