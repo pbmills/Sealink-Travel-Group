@@ -1,0 +1,29 @@
+{
+	"name": "tw-v2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"tw:build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
+		"tw:watch": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
+		"tw:prod": "cross-env NODE_ENV=production postcss build ./src/css/tailwind.css -o ./public/css/tailwind.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@tailwindcss/aspect-ratio": "^0.2.1",
+		"@tailwindcss/forms": "^0.3.3",
+		"cssnano": "^4.1.10",
+		"lodash": "^4.17.21",
+		"onchange": "^7.1.0",
+		"postcss-cli": "^8.3.0",
+		"tailwindcss-aspect-ratio": "^3.0.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.3.4",
+		"cross-env": "^7.0.3",
+		"postcss": "^8.3.6",
+		"tailwindcss": "^2.2.11"
+	}
+}
